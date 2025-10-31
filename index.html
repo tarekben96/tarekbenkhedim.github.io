@@ -1,478 +1,254 @@
-<!doctype html>
-<html lang="en" data-theme="dark">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <!-- ===== META & HEAD ===== -->
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Tarek Benkhedim — Web & Desktop Developer • IT Support • Database Technician • Systems Administration</title>
-  <meta name="description" content="Portfolio of Tarek Benkhedim — Web & Desktop Developer, IT Support, Database Technician, Systems Administration. Dark, responsive, bilingual (EN/AR)." />
-  <meta name="theme-color" content="#0b0c10" />
-  <meta property="og:title" content="Tarek Benkhedim — Web & Desktop Developer • IT Support • Database Technician • Systems Administration" />
-  <meta property="og:description" content="Web & Desktop Development, IT Support, Databases, and Systems Administration." />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="" />
-  <meta property="og:url" content="" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tarek Benkhedim — Web & Desktop Developer</title>
+  <meta name="description" content="Portfolio of Tarek Benkhedim — Web & Desktop Developer, IT Support, Database Technician, and Systems Administrator." />
   <link rel="stylesheet" href="style.css" />
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Tarek Benkhedim",
-    "jobTitle": "Web & Desktop Developer / IT Support / Database Technician / Systems Administrator",
-    "email": "mailto:bentarek1996@gmail.com",
-    "telephone": "+213676179770",
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Tebessa",
-      "addressCountry": "DZ"
-    },
-    "sameAs": [
-      "https://www.linkedin.com/in/tarek-benkhedim",
-      "https://www.facebook.com/share/1FkVfkw5gk/"
-    ]
-  }
-  </script>
+  <link rel="icon" type="image/png" href="assets/logo.svg" />
 </head>
+
 <body>
-  <!-- ===== HEADER / NAV ===== -->
+  <!-- ===== HEADER ===== -->
   <header>
-    <div class="container">
-      <nav aria-label="Primary Navigation">
-        <a class="brand" href="#top" title="Tarek Benkhedim">
-          <span class="logo-pill">
-            <span class="logo" aria-hidden="true">T</span>
-            <strong>Tarek Benkhedim</strong>
-          </span>
-        </a>
-        <div class="navlinks" role="navigation">
-          <a href="#about" data-i18n="nav_about">About</a>
-          <a href="#projects" data-i18n="nav_projects">Projects</a>
-          <a href="#education" data-i18n="nav_edu">Education</a>
-          <a href="#experience" data-i18n="nav_exp">Experience</a>
-          <a href="#skills" data-i18n="nav_skills">Skills</a>
-          <a href="#languages" data-i18n="nav_langs">Languages</a>
-          <a href="#contact" data-i18n="nav_contact">Contact</a>
-        </div>
-        <div class="controls">
-          <!-- Dark only (no toggle) -->
-          <div class="lang-switch" aria-label="Language switcher">
-            <button class="btn-chip active" data-set-lang="en" aria-pressed="true">EN</button>
-            <button class="btn-chip" data-set-lang="ar" aria-pressed="false">العربية</button>
-          </div>
-          <button id="menuBtn" class="btn-chip nav-toggle" aria-label="Open menu">☰</button>
-        </div>
-      </nav>
-    </div>
+    <nav class="container">
+      <a href="#" class="brand">
+        <span class="logo-pill">
+          <span class="logo">T</span> Tarek Benkhedim
+        </span>
+      </a>
+
+      <div class="navlinks">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#languages">Languages</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <button id="menuBtn" class="nav-toggle" aria-label="Open menu">☰</button>
+    </nav>
   </header>
 
-  <main id="top" class="container">
-    <!-- ===== HERO (EN) ===== -->
-    <section class="hero" data-lang="en">
-      <div class="grid">
-        <div>
-          <span class="badge">✅ Available for projects</span>
-          <h1 class="title">Web & Desktop Developer • <span class="grad">IT Support • Database Technician • Systems Administration</span></h1>
-          <p class="subtitle">I design and develop web and desktop applications, manage databases, and provide professional IT support to maintain secure and efficient systems.</p>
-          <div class="badges">
-            <span class="badge">HTML • CSS • JavaScript • Python • C#</span>
-            <span class="badge">SQL • Database Design</span>
-            <span class="badge">Systems & IT Support</span>
+  <!-- ===== HERO ===== -->
+  <section class="hero container reveal reveal-up" id="hero">
+    <div class="grid">
+      <div class="pad">
+        <h1 class="title">
+          Hi, I'm <span class="grad">Tarek Benkhedim</span>
+        </h1>
+        <p class="subtitle">Web & Desktop Developer • IT Support • Database Technician • Systems Administration</p>
+
+        <div class="badges">
+          <span class="badge">Frontend</span>
+          <span class="badge">Backend</span>
+          <span class="badge">Database</span>
+          <span class="badge">Networking</span>
+        </div>
+
+        <div class="cta">
+          <a href="#contact" class="btn primary">Hire Me</a>
+          <a href="assets/Tarek_Benkhedim_CV.pdf" download class="btn">Download CV</a>
+        </div>
+      </div>
+
+      <div class="card avatar-card">
+        <div class="avatar">T</div>
+        <div class="kv">
+          <div class="mini">
+            <div class="label">Email</div>
+            <div class="value">bentarek1996@gmail.com</div>
           </div>
-          <div class="cta">
-            <a class="btn primary" href="assets/Tarek_Benkhedim_CV.pdf" download>Download CV (PDF)</a>
-            <a class="btn" href="mailto:bentarek1996@gmail.com">Contact Me</a>
-            <a class="btn" target="_blank" rel="noopener" href="https://www.facebook.com/share/1FkVfkw5gk/">Facebook</a>
-            <a class="btn" target="_blank" rel="noopener" href="https://www.linkedin.com/in/tarek-benkhedim">LinkedIn</a>
+          <div class="mini">
+            <div class="label">Phone</div>
+            <div class="value">+213 000 000 000</div>
           </div>
-        </div>
-        <aside class="card avatar-card" aria-label="Profile quick view">
-          <div class="avatar" title="Profile photo placeholder">T</div>
-          <div class="kv">
-            <div class="mini"><div class="label">Phone</div><div class="value"><a href="tel:+213676179770">+213 676 179 770</a></div></div>
-            <div class="mini"><div class="label">Email</div><div class="value">bentarek1996@gmail.com</div></div>
-            <div class="mini"><div class="label">Location</div><div class="value">Tebessa, DZ</div></div>
-            <div class="mini"><div class="label">Timezone</div><div class="value">UTC+1</div></div>
+          <div class="mini">
+            <div class="label">Location</div>
+            <div class="value">Algeria, Remote</div>
           </div>
-          <div class="note">Replace this circle with your photo later: <code>assets/profile.jpg</code></div>
-        </aside>
-      </div>
-    </section>
-
-    <!-- ===== HERO (AR) ===== -->
-    <section class="hero rtl" data-lang="ar">
-      <div class="grid">
-        <div>
-          <span class="badge">✅ متاح للمشاريع</span>
-          <h1 class="title">مطور ويب وسطح مكتب • <span class="grad">دعم تقني • فني قواعد بيانات • إدارة الأنظمة</span></h1>
-          <p class="subtitle">أصمم وأطوّر تطبيقات الويب وسطح المكتب، وأدير قواعد البيانات، وأقدّم الدعم التقني لضمان أنظمة آمنة وفعّالة.</p>
-          <div class="badges">
-            <span class="badge">HTML • CSS • JavaScript • Python • C#</span>
-            <span class="badge">SQL • تصميم قواعد البيانات</span>
-            <span class="badge">الدعم التقني وإدارة الأنظمة</span>
-          </div>
-          <div class="cta">
-            <a class="btn primary" href="assets/Tarek_Benkhedim_CV.pdf" download>تحميل السيرة الذاتية (PDF)</a>
-            <a class="btn" href="mailto:bentarek1996@gmail.com">تواصل معي</a>
-            <a class="btn" target="_blank" rel="noopener" href="https://www.facebook.com/share/1FkVfkw5gk/">Facebook</a>
-            <a class="btn" target="_blank" rel="noopener" href="https://www.linkedin.com/in/tarek-benkhedim">LinkedIn</a>
-          </div>
-        </div>
-        <aside class="card avatar-card">
-          <div class="avatar" aria-hidden="true">T</div>
-          <div class="kv">
-            <div class="mini"><div class="label">الهاتف</div><div class="value"><a href="tel:+213676179770">+213 676 179 770</a></div></div>
-            <div class="mini"><div class="label">البريد</div><div class="value">bentarek1996@gmail.com</div></div>
-            <div class="mini"><div class="label">المدينة</div><div class="value">تبسة، الجزائر</div></div>
-            <div class="mini"><div class="label">المنطقة الزمنية</div><div class="value">UTC+1</div></div>
-          </div>
-          <div class="note">يمكنك استبدال الدائرة بصورة شخصية لاحقًا: <code>assets/profile.jpg</code></div>
-        </aside>
-      </div>
-    </section>
-
-    <!-- ===== ABOUT (EN) ===== -->
-    <section id="about" data-lang="en">
-      <h2>About Me</h2>
-      <div class="columns">
-        <div class="card pad">
-          <p><strong>Career Objective:</strong> Build reliable, secure, and high-performance digital solutions across web & desktop platforms, databases, and IT systems.</p>
-          <p>I design and develop web and desktop apps, manage SQL databases, and provide systems administration and IT support to keep organizations running smoothly.</p>
-        </div>
-        <div class="card pad">
-          <p><strong>Personal Info:</strong><br>
-            Address: City, Algeria<br>
-            Phone: <a href="tel:+213676179770">+213 676 179 770</a><br>
-            Email: <a href="mailto:bentarek1996@gmail.com">bentarek1996@gmail.com</a>
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <!-- ===== ABOUT (AR) ===== -->
-    <section id="about-ar" class="rtl" data-lang="ar">
-      <h2>نبذة عني</h2>
-      <div class="columns">
-        <div class="card pad">
-          <p><strong>الهدف المهني:</strong> بناء حلول رقمية موثوقة وآمنة وعالية الأداء في الويب وسطح المكتب وقواعد البيانات والأنظمة.</p>
-          <p>أطوّر تطبيقات الويب وسطح المكتب، وأدير قواعد بيانات SQL، وأقدّم إدارة أنظمة ودعمًا تقنيًا لضمان سير العمل بكفاءة.</p>
-        </div>
-        <div class="card pad">
-          <p><strong>معلومات شخصية:</strong><br>
-            العنوان: مدينة، الجزائر<br>
-            الهاتف: <a href="tel:+213676179770">+213 676 179 770</a><br>
-            البريد: <a href="mailto:bentarek1996@gmail.com">bentarek1996@gmail.com</a>
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <!-- ===== PROJECTS ===== -->
-    <section id="projects" data-lang="en">
-      <h2>Projects</h2>
-      <p class="section-desc">Placeholders to replace with your real projects.</p>
-      <div class="portfolio">
-        <article class="shot">
-          <div class="tag">Web App</div>
-          <h4>Project One (Placeholder)</h4>
-          <p>Short description. Tech: HTML, CSS, JS.</p>
-          <p><a href="#" class="btn">Live Demo</a> <a href="#" class="btn">GitHub</a></p>
-        </article>
-        <article class="shot">
-          <div class="tag">Desktop</div>
-          <h4>Project Two (Placeholder)</h4>
-          <p>Short description. Tech: C#/.NET or Python.</p>
-          <p><a href="#" class="btn">Download</a> <a href="#" class="btn">GitHub</a></p>
-        </article>
-        <article class="shot">
-          <div class="tag">Database</div>
-          <h4>Project Three (Placeholder)</h4>
-          <p>Short description. Tech: SQL, schema design, reporting.</p>
-          <p><a href="#" class="btn">Overview</a> <a href="#" class="btn">GitHub</a></p>
-        </article>
-      </div>
-    </section>
-
-    <section id="projects-ar" class="rtl" data-lang="ar">
-      <h2>المشاريع</h2>
-      <p class="section-desc">عناصر مؤقتة لاستبدالها بمشاريعك الحقيقية.</p>
-      <div class="portfolio">
-        <article class="shot">
-          <div class="tag">تطبيق ويب</div>
-          <h4>مشروع 1 (Placeholder)</h4>
-          <p>وصف قصير. التقنيات: HTML, CSS, JS.</p>
-          <p><a href="#" class="btn">عرض مباشر</a> <a href="#" class="btn">GitHub</a></p>
-        </article>
-        <article class="shot">
-          <div class="tag">سطح المكتب</div>
-          <h4>مشروع 2 (Placeholder)</h4>
-          <p>وصف قصير. التقنيات: C#/.NET أو Python.</p>
-          <p><a href="#" class="btn">تحميل</a> <a href="#" class="btn">GitHub</a></p>
-        </article>
-        <article class="shot">
-          <div class="tag">قاعدة بيانات</div>
-          <h4>مشروع 3 (Placeholder)</h4>
-          <p>وصف قصير. التقنيات: SQL وتصميم المخطط والتقارير.</p>
-          <p><a href="#" class="btn">نظرة عامة</a> <a href="#" class="btn">GitHub</a></p>
-        </article>
-      </div>
-    </section>
-
-    <!-- ===== TECH STACK ===== -->
-    <section id="stack" data-lang="en">
-      <h2>Tech Stack</h2>
-      <div class="skills">
-        <span class="chip">HTML</span><span class="chip">CSS</span><span class="chip">JavaScript</span>
-        <span class="chip">Python</span><span class="chip">C# / .NET</span><span class="chip">SQL</span>
-        <span class="chip">Git</span><span class="chip">VS Code</span>
-      </div>
-    </section>
-    <section id="stack-ar" class="rtl" data-lang="ar">
-      <h2>الأدوات والتقنيات</h2>
-      <div class="skills">
-        <span class="chip">HTML</span><span class="chip">CSS</span><span class="chip">JavaScript</span>
-        <span class="chip">Python</span><span class="chip">C# / .NET</span><span class="chip">SQL</span>
-        <span class="chip">Git</span><span class="chip">VS Code</span>
-      </div>
-    </section>
-
-    <!-- ===== EDUCATION ===== -->
-    <section id="education" data-lang="en">
-      <h2>Education</h2>
-      <div class="cards">
-        <article class="card pad"><h3>Advanced Technician Certificate — Computer Science</h3><p>Specialization: Database</p></article>
-        <article class="card pad"><h3>High School Level</h3><p>Technical stream</p></article>
-      </div>
-    </section>
-    <section id="education-ar" class="rtl" data-lang="ar">
-      <h2>التعليم</h2>
-      <div class="cards">
-        <article class="card pad"><h3>شهادة تقني سامٍ — إعلام آلي</h3><p>تخصص: قواعد البيانات</p></article>
-        <article class="card pad"><h3>مستوى ثانوي</h3><p>شعبة تقنية</p></article>
-      </div>
-    </section>
-
-    <!-- ===== EXPERIENCE ===== -->
-    <section id="experience" data-lang="en">
-      <h2>Experience</h2>
-      <div class="cards">
-        <article class="card pad">
-          <h3>Web & Desktop Development</h3>
-          <ul class="list">
-            <li>Built web UIs with HTML, CSS, and JavaScript</li>
-            <li>Developed desktop utilities with Python and C#</li>
-            <li>Integrated SQL databases and wrote optimized queries</li>
-          </ul>
-        </article>
-        <article class="card pad">
-          <h3>IT Support & Systems</h3>
-          <ul class="list">
-            <li>OS installation, troubleshooting, and maintenance</li>
-            <li>User support, incident tracking, and documentation</li>
-            <li>Basic networking, backups, and security hygiene</li>
-          </ul>
-        </article>
-        <article class="card pad">
-          <h3>Administrative & Training</h3>
-          <ul class="list">
-            <li>General Manager Secretary (Internship)</li>
-            <li>Professional training instructor (media/IT basics)</li>
-            <li>Prepared educational content and SOPs</li>
-          </ul>
-        </article>
-      </div>
-    </section>
-    <section id="experience-ar" class="rtl" data-lang="ar">
-      <h2>الخبرات العملية</h2>
-      <div class="cards">
-        <article class="card pad">
-          <h3>تطوير الويب وسطح المكتب</h3>
-          <ul class="list">
-            <li>بناء واجهات ويب باستخدام HTML وCSS وJavaScript</li>
-            <li>تطوير أدوات سطح مكتب بـ Python و C#</li>
-            <li>دمج قواعد بيانات SQL وكتابة استعلامات محسّنة</li>
-          </ul>
-        </article>
-        <article class="card pad">
-          <h3>الدعم التقني والأنظمة</h3>
-          <ul class="list">
-            <li>تثبيت أنظمة التشغيل واستكشاف الأخطاء والصيانة</li>
-            <li>دعم المستخدمين وتوثيق الحوادث والإجراءات</li>
-            <li>شبكات أساسية ونسخ احتياطي وممارسات أمنية</li>
-          </ul>
-        </article>
-        <article class="card pad">
-          <h3>إداري وتدريب</h3>
-          <ul class="list">
-            <li>سكرتير مدير عام (تربص)</li>
-            <li>مكوّن مهني (أساسيات الإعلام/الإعلام الآلي)</li>
-            <li>إعداد محتوى تعليمي وإجراءات العمل</li>
-          </ul>
-        </article>
-      </div>
-    </section>
-
-    <!-- ===== SKILLS & LANGS ===== -->
-    <section id="skills" data-lang="en">
-      <h2>Skills</h2>
-      <div class="skills">
-        <span class="chip">HTML / CSS / JS</span>
-        <span class="chip">Python</span>
-        <span class="chip">C#</span>
-        <span class="chip">SQL & DB Design</span>
-        <span class="chip">Systems & IT Support</span>
-        <span class="chip">Documentation & Training</span>
-      </div>
-    </section>
-    <section id="skills-ar" class="rtl" data-lang="ar">
-      <h2>المهارات</h2>
-      <div class="skills">
-        <span class="chip">HTML / CSS / JS</span>
-        <span class="chip">Python</span>
-        <span class="chip">C#</span>
-        <span class="chip">SQL وتصميم قواعد البيانات</span>
-        <span class="chip">إدارة الأنظمة والدعم التقني</span>
-        <span class="chip">التوثيق والتدريب</span>
-      </div>
-    </section>
-
-    <section id="languages" data-lang="en">
-      <h2>Languages</h2>
-      <div class="skills">
-        <span class="chip">Arabic — Native</span>
-        <span class="chip">French — Intermediate (Technical High)</span>
-        <span class="chip">English — Intermediate (Technical High)</span>
-      </div>
-    </section>
-    <section id="languages-ar" class="rtl" data-lang="ar">
-      <h2>اللغات</h2>
-      <div class="skills">
-        <span class="chip">العربية — لغة أم</span>
-        <span class="chip">الفرنسية — متوسط (تقني عالٍ)</span>
-        <span class="chip">الإنجليزية — متوسط (تقني عالٍ)</span>
-      </div>
-    </section>
-
-    <!-- ===== TESTIMONIALS ===== -->
-    <section id="testimonials" data-lang="en">
-      <h2>Testimonials</h2>
-      <div class="testimonials">
-        <blockquote class="quote"><p>“Tarek delivered a clean and functional desktop utility and documented everything clearly.”</p><div class="who">— Colleague (Placeholder)</div></blockquote>
-        <blockquote class="quote"><p>“Professional IT support — fast response and reliable troubleshooting.”</p><div class="who">— Mentor (Placeholder)</div></blockquote>
-        <blockquote class="quote"><p>“Great communication and attention to detail.”</p><div class="who">— Team Lead (Placeholder)</div></blockquote>
-      </div>
-    </section>
-    <section id="testimonials-ar" class="rtl" data-lang="ar">
-      <h2>آراء</h2>
-      <div class="testimonials">
-        <blockquote class="quote"><p>«قدّم طارق أداة سطح مكتب نظيفة وعملية مع توثيق واضح.»</p><div class="who">— زميل (Placeholder)</div></blockquote>
-        <blockquote class="quote"><p>«دعم تقني احترافي — استجابة سريعة وحلول موثوقة.»</p><div class="who">— مدرّب (Placeholder)</div></blockquote>
-        <blockquote class="quote"><p>«تواصل ممتاز واهتمام كبير بالتفاصيل.»</p><div class="who">— قائد فريق (Placeholder)</div></blockquote>
-      </div>
-    </section>
-
-    <!-- ===== GALLERY / LOGO ===== -->
-    <section id="gallery" data-lang="en">
-      <h2>Gallery / Logo</h2>
-      <p class="section-desc">Drop your screenshots or logo later in <code>assets/</code>.</p>
-      <div class="gallery">
-        <div class="thumb">assets/screenshot1.png</div>
-        <div class="thumb">assets/screenshot2.png</div>
-        <div class="thumb">assets/logo.svg</div>
-      </div>
-    </section>
-    <section id="gallery-ar" class="rtl" data-lang="ar">
-      <h2>معرض / شعار</h2>
-      <p class="section-desc">أضف لقطات الشاشة أو الشعار لاحقًا داخل <code>assets/</code>.</p>
-      <div class="gallery">
-        <div class="thumb">assets/screenshot1.png</div>
-        <div class="thumb">assets/screenshot2.png</div>
-        <div class="thumb">assets/logo.svg</div>
-      </div>
-    </section>
-
-    <!-- ===== CONTACT (Formspree) ===== -->
-    <section id="contact" data-lang="en">
-      <h2>Contact</h2>
-      <div class="contact">
-        <div class="card pad">
-          <form action="https://formspree.io/f/mnnogkdl" method="POST">
-            <label for="name">Your Name</label>
-            <input id="name" name="name" type="text" placeholder="John Doe" required>
-            <label for="email">Your Email</label>
-            <input id="email" name="_replyto" type="email" placeholder="you@example.com" required>
-            <label for="message">Message</label>
-            <textarea id="message" name="message" placeholder="How can I help?" required></textarea>
-            <input type="hidden" name="_subject" value="New message from Tarek's portfolio">
-            <input type="text" name="_gotcha" style="display:none">
-            <button class="btn primary" type="submit">Send</button>
-            <div class="note">Prefer direct email? <a href="mailto:bentarek1996@gmail.com">bentarek1996@gmail.com</a></div>
-          </form>
-        </div>
-        <div class="card pad">
-          <h3>Quick Links</h3>
-          <ul class="list">
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#testimonials">Testimonials</a></li>
-            <li><a href="assets/Tarek_Benkhedim_CV.pdf" download>Download CV</a></li>
-            <li><a href="https://www.linkedin.com/in/tarek-benkhedim" target="_blank" rel="noopener">LinkedIn</a></li>
-            <li><a href="https://www.facebook.com/share/1FkVfkw5gk/" target="_blank" rel="noopener">Facebook</a></li>
-          </ul>
-          <div class="kv" style="margin-top:12px">
-            <div class="mini"><div class="label">Email</div><div class="value">bentarek1996@gmail.com</div></div>
-            <div class="mini"><div class="label">Location</div><div class="value">Remote • UTC+1</div></div>
+          <div class="mini">
+            <div class="label">Facebook</div>
+            <div class="value"><a href="https://www.facebook.com/share/1FkVfkw5gk/" target="_blank">Profile</a></div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section id="contact-ar" class="rtl" data-lang="ar">
-      <h2>تواصل</h2>
-      <div class="contact">
-        <div class="card pad">
-          <form action="https://formspree.io/f/mnnogkdl" method="POST" dir="rtl">
-            <label for="name_ar">الاسم</label>
-            <input id="name_ar" name="name" type="text" placeholder="اسمك" required>
-            <label for="email_ar">بريدك</label>
-            <input id="email_ar" name="_replyto" type="email" placeholder="you@example.com" required>
-            <label for="msg_ar">الرسالة</label>
-            <textarea id="msg_ar" name="message" placeholder="كيف يمكنني مساعدتك؟" required></textarea>
-            <input type="hidden" name="_subject" value="رسالة جديدة من موقع طارق">
-            <input type="text" name="_gotcha" style="display:none">
-            <button class="btn primary" type="submit">إرسال</button>
-            <div class="note">تفضل البريد؟ <a href="mailto:bentarek1996@gmail.com">bentarek1996@gmail.com</a></div>
-          </form>
+  <!-- ===== ABOUT ===== -->
+  <section id="about" class="container reveal reveal-left">
+    <h2>About Me</h2>
+    <p class="section-desc">
+      I’m a Web and Desktop Developer passionate about creating efficient and scalable digital solutions.
+      My experience spans across web development, database management, systems administration, and IT support.
+      I focus on delivering secure, stable, and user-friendly systems.
+    </p>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section id="projects" class="container reveal reveal-right">
+    <h2>Projects</h2>
+    <div class="portfolio">
+      <div class="project-card reveal reveal-left">
+        <img src="assets/screenshot1.png" alt="Project One" class="project-img" />
+        <div class="project-overlay">
+          <a href="#" class="view-btn">View Project</a>
         </div>
-        <div class="card pad">
-          <h3>روابط سريعة</h3>
-          <ul class="list">
-            <li><a href="#projects-ar">المشاريع</a></li>
-            <li><a href="#skills-ar">المهارات</a></li>
-            <li><a href="#testimonials-ar">الآراء</a></li>
-            <li><a href="assets/Tarek_Benkhedim_CV.pdf" download>تحميل السيرة الذاتية</a></li>
-            <li><a href="https://www.linkedin.com/in/tarek-benkhedim" target="_blank" rel="noopener">LinkedIn</a></li>
-            <li><a href="https://www.facebook.com/share/1FkVfkw5gk/" target="_blank" rel="noopener">Facebook</a></li>
-          </ul>
-          <div class="kv" style="margin-top:12px">
-            <div class="mini"><div class="label">البريد</div><div class="value">bentarek1996@gmail.com</div></div>
-            <div class="mini"><div class="label">الموقع</div><div class="value">عن بُعد • UTC+1</div></div>
-          </div>
+        <div class="pad">
+          <h4>Project One</h4>
+          <p>Responsive web application built using HTML, CSS, and JavaScript.</p>
         </div>
       </div>
-    </section>
-  </main>
+
+      <div class="project-card reveal reveal-right">
+        <img src="assets/screenshot2.png" alt="Project Two" class="project-img" />
+        <div class="project-overlay">
+          <a href="#" class="view-btn">View Project</a>
+        </div>
+        <div class="pad">
+          <h4>Project Two</h4>
+          <p>Desktop database management system using Python and SQLite.</p>
+        </div>
+      </div>
+
+      <div class="project-card reveal reveal-up">
+        <img src="assets/screenshot3.png" alt="Project Three" class="project-img" />
+        <div class="project-overlay">
+          <a href="#" class="view-btn">View Project</a>
+        </div>
+        <div class="pad">
+          <h4>Project Three</h4>
+          <p>System administration dashboard for monitoring and reports.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EDUCATION ===== -->
+  <section id="education" class="container reveal reveal-up">
+    <h2>Education</h2>
+    <div class="cards">
+      <div class="card pad">
+        <h4>Bachelor in Computer Science</h4>
+        <p>University of [Your City], 2020</p>
+      </div>
+      <div class="card pad">
+        <h4>Professional Training</h4>
+        <p>Web Development, Networking, and Database Management</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EXPERIENCE ===== -->
+  <section id="experience" class="container reveal reveal-left">
+    <h2>Experience</h2>
+    <div class="cards">
+      <div class="card pad">
+        <h4>Web Developer</h4>
+        <p>Developed responsive websites, web apps, and dashboards for clients.</p>
+      </div>
+      <div class="card pad">
+        <h4>IT Support Technician</h4>
+        <p>Maintained systems, networks, and provided technical assistance.</p>
+      </div>
+      <div class="card pad">
+        <h4>Database Technician</h4>
+        <p>Designed and managed databases ensuring efficiency and data integrity.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section id="skills" class="container reveal reveal-right">
+    <h2>Skills</h2>
+    <div class="skills">
+      <span class="chip">HTML</span>
+      <span class="chip">CSS</span>
+      <span class="chip">JavaScript</span>
+      <span class="chip">Python</span>
+      <span class="chip">C#</span>
+      <span class="chip">SQL</span>
+      <span class="chip">Git</span>
+      <span class="chip">Networking</span>
+      <span class="chip">System Administration</span>
+    </div>
+  </section>
+
+  <!-- ===== LANGUAGES ===== -->
+  <section id="languages" class="container reveal reveal-up">
+    <h2>Languages</h2>
+    <div class="skills">
+      <span class="chip">English — Fluent</span>
+      <span class="chip">Arabic — Native</span>
+      <span class="chip">French — Intermediate</span>
+    </div>
+  </section>
+
+  <!-- ===== GALLERY ===== -->
+  <section id="gallery" class="container reveal reveal-left">
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <div class="project-card">
+        <img src="assets/screenshot1.png" alt="Preview 1" class="project-img" />
+        <div class="project-overlay">
+          <a href="#" class="view-btn">Preview</a>
+        </div>
+      </div>
+      <div class="project-card">
+        <img src="assets/screenshot2.png" alt="Preview 2" class="project-img" />
+        <div class="project-overlay">
+          <a href="#" class="view-btn">Preview</a>
+        </div>
+      </div>
+      <div class="project-card">
+        <img src="assets/screenshot3.png" alt="Preview 3" class="project-img" />
+        <div class="project-overlay">
+          <a href="#" class="view-btn">Preview</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact" class="container reveal reveal-right">
+    <h2>Contact</h2>
+    <div class="contact">
+      <div class="card pad">
+        <form action="https://formspree.io/f/mnnogkdl" method="POST">
+          <label for="name">Your Name</label>
+          <input id="name" name="name" type="text" placeholder="John Doe" required>
+
+          <label for="email">Your Email</label>
+          <input id="email" name="_replyto" type="email" placeholder="you@example.com" required>
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="How can I help?" required></textarea>
+
+          <input type="hidden" name="_subject" value="New message from Tarek's portfolio">
+          <button class="btn primary" type="submit">Send</button>
+        </form>
+      </div>
+
+      <div class="card pad">
+        <h4>Connect</h4>
+        <p>Email: <a href="mailto:bentarek1996@gmail.com">bentarek1996@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/tarek-benkhedim" target="_blank">linkedin.com/in/tarek-benkhedim</a></p>
+        <p>Facebook: <a href="https://www.facebook.com/share/1FkVfkw5gk/" target="_blank">facebook.com/tarek</a></p>
+      </div>
+    </div>
+  </section>
 
   <!-- ===== FOOTER ===== -->
   <footer>
-    Designed & Developed by Tarek Benkhedim · © 2025
+    © 2025 Tarek Benkhedim — Designed & Developed by Tarek Benkhedim
   </footer>
 
-  <!-- ===== FLOATING BUTTONS ===== -->
-  <button class="float-top" id="toTop" aria-label="Scroll to top">↑</button>
+  <button id="toTop" class="float-top" aria-label="Scroll to top">↑</button>
 
   <script src="script.js"></script>
 </body>
-</html>
+  </html>
