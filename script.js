@@ -1,4 +1,9 @@
-// Language toggle, mobile menu, scroll to top
+// ===============================
+//  TAREK BENKHEDIM — SCRIPT UPDATED
+//  Language toggle + Animated mobile menu + Scroll to top
+// ===============================
+
+// ----- Language Switcher -----
 const langButtons = document.querySelectorAll('.btn-chip[data-set-lang]');
 const setLang = (lang) => {
   document.querySelectorAll('[data-lang]').forEach(el => {
@@ -14,21 +19,30 @@ const setLang = (lang) => {
 langButtons.forEach(b=> b.addEventListener('click', ()=> setLang(b.dataset.setLang || b.dataset.set_lang)) );
 setLang('en');
 
+// ----- Scroll to Top -----
 const toTop = document.getElementById('toTop');
 if (toTop) toTop.addEventListener('click', ()=> window.scrollTo({top:0, behavior:'smooth'}));
 
+// ----- Animated Mobile Menu -----
 const menuBtn = document.getElementById('menuBtn');
 const navlinks = document.querySelector('.navlinks');
+
 if (menuBtn && navlinks) {
   menuBtn.addEventListener('click', ()=>{
-    const visible = window.getComputedStyle(navlinks).display !== 'none';
-    if (visible) {
-      navlinks.style.display = 'none';
-      menuBtn.setAttribute('aria-label', 'Open menu');
-    } else {
-      navlinks.style.display = 'flex';
-      navlinks.style.flexWrap = 'wrap';
-      menuBtn.setAttribute('aria-label', 'Close menu');
-    }
+    const isShown = navlinks.classList.toggle('show');
+    menuBtn.classList.toggle('open', isShown);
+    menuBtn.textContent = isShown ? '✖' : '☰';
+    menuBtn.setAttribute('aria-label', isShown ? 'Close menu' : 'Open menu');
   });
 }
+
+// Close menu on link click (mobile)
+document.querySelectorAll('.navlinks a').forEach(link=>{
+  link.addEventListener('click', ()=>{
+    if(window.innerWidth < 640){
+      navlinks.classList.remove('show');
+      menuBtn.classList.remove('open');
+      menuBtn.textContent = '☰';
+    }
+  });
+});
