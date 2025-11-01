@@ -1,67 +1,90 @@
-# Tarek Benkhedim — Dark Portfolio (EN/AR)
+<!-- ============================================================
+     README.md — Tarek Benkhedim Portfolio
+     Author: Tarek Benkhedim
+     ============================================================ -->
 
-A clean, **dark-only**, fully responsive personal portfolio for **Web & Desktop Development, IT Support, Databases, and Systems Admin**.  
-Structured in three files for easy editing: `index.html`, `style.css`, `script.js`.
+# 🌐 Tarek Benkhedim — Portfolio Website
 
-## ✨ Features
-- Dark theme only (no light mode).
-- Bilingual: English + Arabic (client-side toggle).
-- Mobile-first responsive layout (cards, spacing, full-width buttons).
-- Sections: Hero, About, Projects, Tech Stack, Education, Experience, Skills, Languages, Testimonials, Gallery, Contact.
-- Working contact form via **Formspree** (ID included).
+![Portfolio Preview](assets/screenshot1.png)
 
-## 📦 Project Structure
-```
-tarek_portfolio_dark_final/
-├── index.html
-├── style.css
-├── script.js
-├── assets/
-│   ├── Tarek_Benkhedim_CV.pdf     (add your CV here)
-│   ├── profile.jpg                (optional profile photo)
-│   ├── screenshot1.png, screenshot2.png, logo.svg (optional)
-│   └── README.txt
-└── README.md
-```
-
-## 🚀 Run Locally
-Open `index.html` in your browser. No build step needed.
-
-## 🌐 Deploy to GitHub Pages
-1. Create a public repository (recommended name: `tarekbenkhedim.github.io`).
-2. Upload all files (including `assets/` if you have CV/images).
-3. Go to **Settings → Pages**, select **Branch: main / root**, then **Save**.
-
-## ✉️ Contact Form (Formspree)
-Configured to use your endpoint:
-```
-https://formspree.io/f/mnnogkdl
-```
-You’ll receive submissions at your Formspree-linked email (**bentarek1996@gmail.com**).
-
-## 🛡️ Privacy
-- Email and phone are intentionally **kept public** per your request.
-- Detailed address minimized to city/country only.
+Welcome to my personal portfolio repository!  
+This project presents my work in **Web & Desktop Development**, **IT Support**, **Database Management**, and **Systems Administration**.  
+It’s designed with a modern dark theme, smooth animations, and responsive layouts — optimized for all devices.
 
 ---
 
-## 🇦🇪 عربي
+## 🧠 About Me
 
-### الخصائص
-- ثيم داكن فقط، وتصميم متجاوب للهاتف والكمبيوتر.
-- لغتان: إنجليزي وعربي مع زر تبديل.
-- أقسام كاملة: العنوان، نبذة، مشاريع، أدوات، تعليم، خبرة، مهارات، لغات، آراء، معرض، تواصل (Formspree).
+I'm **Tarek Benkhedim**, an IT specialist passionate about technology, systems, and clean design.  
+I build and maintain efficient applications for web and desktop, focusing on usability, automation, and performance.
 
-### التشغيل محليًا
-- افتح الملف `index.html` مباشرة في المتصفح.
+**Core areas of expertise:**
+- Web & Desktop Application Development  
+- IT System Maintenance & Automation  
+- Database Management & Optimization  
+- Systems Administration & Network Support  
 
-### رفعه على GitHub Pages
-1. أنشئ مستودعًا عامًا باسم `tarekbenkhedim.github.io` (مستحسن).
-2. ارفع جميع الملفات، مع مجلد `assets/` إن وُجد.
-3. من **Settings → Pages** اختر **Branch: main / root** ثم **Save**.
+---
 
-### نموذج التواصل
-- مفعّل برابط Formspree: `https://formspree.io/f/mnnogkdl`  
-- ستستقبل الرسائل على بريدك `bentarek1996@gmail.com` بعد تفعيل النموذج.
+## ⚙️ Technologies Used
 
-> بالتوفيق يا طارق! 🇩🇿
+| Category | Tools |
+|-----------|-------|
+| **Frontend** | HTML5, CSS3, JavaScript |
+| **Design** | Responsive Layouts, Flex/Grid, Custom Animations |
+| **Integrations** | [Formspree](https://formspree.io/) for contact form |
+| **Hosting** | [GitHub Pages](https://pages.github.com) |
+| **Assets** | Custom 3D & Clean Light UI mockups designed for portfolio display |
+
+---
+
+## 📂 Project Structure
+📦 Tarek-Portfolio/
+┣ 📂 assets/ ┃
+┣ screenshot1.png ┃ 
+┣ screenshot2.png ┃ 
+┣ screenshot3.png ┃ 
+┣ system_dashboard.png ┃
+┣ profile.jpg ┃ 
+┗ logo.svg 
+┣ 📄 index.html 
+┣ 📄 style.css 
+┣ 📄 script.js 
+┗ 📄 README.md
+
+---
+## 🚀 Live Demo
+
+👉 **[View Online — Tarek Benkhedim Portfolio](https://tarekbenn96.github.io/portfolio)**
+
+---
+
+## 📬 Contact
+
+- 📧 **Email:** [bentarek1996@gmail.com](mailto:bentarek1996@gmail.com)  
+- 🌍 **Location:** Tebessa, Algeria  
+- 💼 **GitHub:** [@tarekbenn96](https://github.com/tarekbenn96)  
+- 💬 **Facebook:** [Tarek Benkhedim](https://www.facebook.com/share/1FkVfkw5gk/)  
+
+---
+
+## 🏷️ License
+
+This project is open source under the **MIT License**.  
+You are free to use, modify, and distribute it with attribution.
+
+---
+
+## 💡 Notes
+
+- All mockup images (`/assets/*.png`) were designed specifically for this portfolio.  
+- To customize contact form behavior, update your [Formspree form ID](https://formspree.io/forms).  
+- Recommended resolution for assets: `1920×1080` for best display.
+
+---
+
+### ✨ Credits
+
+Designed & Developed by **Tarek Benkhedim**  
+Created with ❤️ and attention to detail.  
+Dark Theme, Responsive Layout, Modern UI & Custom Animations.
